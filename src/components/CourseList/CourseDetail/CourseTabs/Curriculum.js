@@ -47,8 +47,7 @@ export default function Curriculum() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
+            
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
