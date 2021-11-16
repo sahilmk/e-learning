@@ -156,9 +156,9 @@ export const addCourse = (
       .then((response) => {
         console.log("Post data: ", data);
         console.log("Add/Edit Response: ", response.data);
-        let message = `Thêm khóa học mới ${response.data.tenKhoaHoc} thành công`;
+        let message = `Add a new course ${response.data.tenKhoaHoc} success `;
         if (isEdit) {
-          message = `Cập nhật khóa học ${response.data.tenKhoaHoc} thành công`;
+          message = `Course Update ${response.data.tenKhoaHoc} success `;
         }
 
         if (selectedImage) {
