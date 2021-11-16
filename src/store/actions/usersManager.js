@@ -196,7 +196,7 @@ export const addUser = (values, isEdit, tabIndex, group) => {
         if (isEdit) {
           dispatch(
             addUserSuccess(
-              `Cập nhật tài khoản ${response.data.taiKhoan} thành công!`
+              `Update account  ${response.data.taiKhoan} success!`
             )
           );
           dispatch(fetchUsers(group));
@@ -205,7 +205,7 @@ export const addUser = (values, isEdit, tabIndex, group) => {
         } else {
           dispatch(
             addUserSuccess(
-              `Thêm tài khoản ${response.data.taiKhoan} thành công!`
+              `More account ${response.data.taiKhoan} success!`
             )
           );
           dispatch(fetchUsers(group));
