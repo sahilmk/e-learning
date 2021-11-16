@@ -42,9 +42,10 @@ export default function Curriculum() {
         >
           <Typography className={classes.heading}>General settings</Typography>
           <Typography className={classes.secondaryHeading}>
-            I am an expansion panel
+            Choose your settings
           </Typography>
         </ExpansionPanelSummary>
+          Settings
         <ExpansionPanelDetails>
           <Typography>
             
@@ -62,14 +63,12 @@ export default function Curriculum() {
         >
           <Typography className={classes.heading}>Users</Typography>
           <Typography className={classes.secondaryHeading}>
-            You are currently not an owner
+            Find you classmate
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat
-            lectus, varius pulvinar diam eros in elit. Pellentesque convallis
-            laoreet laoreet.
+            Here in this section you will find the who else studying with you.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -84,13 +83,12 @@ export default function Curriculum() {
         >
           <Typography className={classes.heading}>Advanced settings</Typography>
           <Typography className={classes.secondaryHeading}>
-            Filtering has been entirely disabled for whole web server
+            Improve your experience with advance settings
           </Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
+            Settings
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -107,8 +105,7 @@ export default function Curriculum() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
+            Your data
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
