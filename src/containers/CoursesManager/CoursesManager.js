@@ -6,7 +6,7 @@ import { Grid, Box } from "@material-ui/core";
 import CourseList from "../../components/Courses/CourseList";
 import AddCourses from "../../components/Courses/AddCourses";
 import CourseDetails from "../../components/Courses/CourseDetails";
-//deepkaver
+
 const useStyles = makeStyles((theme) => ({
   list: {
     flex: 1,
