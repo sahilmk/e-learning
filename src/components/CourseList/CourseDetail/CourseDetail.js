@@ -158,7 +158,7 @@ function CourseDetail(props) {
                             ? userList.lstHocVien.length
                             : "0"}
                         </Box>
-                        <Typography>Enerolled</Typography>
+                        <Typography>Enrolled</Typography>
                       </Box>
                       {userListRender}
                       <Tooltip title="Show All">

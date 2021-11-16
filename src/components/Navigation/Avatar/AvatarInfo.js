@@ -64,7 +64,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
           >
             <Avatar
               className={styles.avatar}
-              src={"https://i.pravatar.cc/150?img=14"}
+              src={"https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.shutterstock.com%2Fimage-vector%2Fsilhouette-people-unknown-male-person-260nw-1372192277.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Funknown%2Bperson&tbnid=_TCWMJ_fzeM4PM&vet=12ahUKEwi6ptv1lZ30AhXhitgFHQS8A5kQMygBegUIARCBAQ..i&docid=_kCFPSjYFQVHoM&w=266&h=280&itg=1&q=photo%20of%20unknown%20person&ved=2ahUKEwi6ptv1lZ30AhXhitgFHQS8A5kQMygBegUIARCBAQ"}
             />
           </Badge>
           <h3 className={styles.heading}>{user.taiKhoan}</h3>
@@ -77,7 +77,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
       ) : null}
       <Divider light />
       <Typography className={styles.subheader}>
-        Designed by niemtin007
+        Designed by sahil and deep
       </Typography>
       <Typography className={styles.subheader} style={{ marginBottom: 0 }}>
         Contact me
@@ -86,7 +86,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         <IconButton
           size="small"
           component={Link}
-          href="https://www.facebook.com/niemtin007"
+          href="#"
           target="_blank"
           rel="noopener"
         >
@@ -95,7 +95,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         <IconButton
           size="small"
           component={Link}
-          href="https://github.com/niemtin007"
+          href="#"
           target="_blank"
           rel="noopener"
         >
@@ -103,7 +103,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         </IconButton>
       </Box>
       <Typography className={styles.subheader}>
-        © Copyright 2020 CourseHub.
+        © Copyright 2020 E-learning.
       </Typography>
     </Card>
   );
