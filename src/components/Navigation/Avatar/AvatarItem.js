@@ -59,7 +59,7 @@ const AvatarItem = ({ onSideOpen }) => {
         variant="dot"
         onClick={onSideOpen}
       >
-        <Avatar alt="Remy Sharp" src="https://i.pravatar.cc/150?img=14" />
+        <Avatar alt="Remy Sharp" src="https://www.google.com/search?q=unknown+person+image&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEj4bhyJ70AhWGV30KHU0vC_8Q_AUoAXoECAEQAw&biw=1366&bih=643&dpr=1#imgrc=_TCWMJ_fzeM4PM" />
       </StyledBadge>
     </div>
   );
