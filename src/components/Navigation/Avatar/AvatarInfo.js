@@ -64,7 +64,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
           >
             <Avatar
               className={styles.avatar}
-              src={"https://i.pravatar.cc/150?img=14"}
+              src={"https://www.google.com/search?q=unknown+person+image&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEj4bhyJ70AhWGV30KHU0vC_8Q_AUoAXoECAEQAw&biw=1366&bih=643&dpr=1#imgrc=_TCWMJ_fzeM4PM"}
             />
           </Badge>
           <h3 className={styles.heading}>{user.taiKhoan}</h3>
@@ -77,7 +77,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
       ) : null}
       <Divider light />
       <Typography className={styles.subheader}>
-        Designed by niemtin007
+        Designed by sahil and deep
       </Typography>
       <Typography className={styles.subheader} style={{ marginBottom: 0 }}>
         Contact me
@@ -86,7 +86,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         <IconButton
           size="small"
           component={Link}
-          href="https://www.facebook.com/niemtin007"
+          href="##"
           target="_blank"
           rel="noopener"
         >
@@ -95,7 +95,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         <IconButton
           size="small"
           component={Link}
-          href="https://github.com/niemtin007"
+          href="##"
           target="_blank"
           rel="noopener"
         >
@@ -103,7 +103,7 @@ export const AvatarInfo = React.memo(function ProfileCard() {
         </IconButton>
       </Box>
       <Typography className={styles.subheader}>
-        © Copyright 2020 CourseHub.
+        © Copyright 2020 E-learning.
       </Typography>
     </Card>
   );
