@@ -64,7 +64,7 @@ const About = React.memo(function ProjectCard() {
           <CardContent className={cardStyles.content}>
             <TextInfoContent
               classes={styles}
-              overline={"Course Hub"}
+              overline={"E-learning"}
               heading={"About"}
               body={
                 "This is an E-learning Web App was bootstrapped with Create React App and other libraries. The UI build base on Material-UI along with the associated library ecosystem."
