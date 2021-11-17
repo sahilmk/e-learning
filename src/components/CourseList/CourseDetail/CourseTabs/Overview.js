@@ -20,6 +20,8 @@ export default function Overview() {
           Description
         </Typography>
         <Typography variant="subtitle1" gutterBottom>
+        Description based on course <br></br>
+          <mark>This is the dummy data</mark><br></br>
           Description Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
           sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
           aliquam erat volutpat. Ut wisi enim ad minim laoreet dolore magna
