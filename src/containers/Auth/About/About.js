@@ -124,36 +124,8 @@ const librariesList = [
     name: "MATERIAL-UI",
     link: "https://material-ui.com/",
   },
-  {
-    avatar: "T",
-    name: "Mui-Treasury",
-    link: "https://mui-treasury.com/",
-  },
-  {
-    avatar: "N",
-    name: "Notistack",
-    link: "https://iamhosseindhv.com/notistack/demos",
-  },
-  {
-    avatar: "D",
-    name: "Material-UI-dropzone",
-    link: "https://yuvaleros.github.io/material-ui-dropzone/",
-  },
-  {
-    avatar: "F",
-    name: "Formik",
-    link: "https://jaredpalmer.com/formik",
-  },
-  {
-    avatar: "F",
-    name: "Formik Material-UI",
-    link: "https://stackworx.github.io/formik-material-ui/",
-  },
-  {
-    avatar: "W",
-    name: "Wertarbyte Material-UI Components",
-    link: "https://mui.wertarbyte.com/",
-  },
+  
+  
   {
     avatar: "C",
     name: "React Material UI Carousel",
@@ -163,11 +135,6 @@ const librariesList = [
     avatar: "C",
     name: "React CountUp",
     link: "https://github.com/glennreyes/react-countup",
-  },
-  {
-    avatar: "R",
-    name: "Redux",
-    link: "https://redux.js.org/",
   },
   {
     avatar: "R",
