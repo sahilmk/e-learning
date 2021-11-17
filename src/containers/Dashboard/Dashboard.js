@@ -284,7 +284,7 @@ function Dashboard({ darkTheme }) {
       <Box my={5} style={{ minHeight: 520 }}>
         <Box mx={6} py={3}>
           <Typography variant="h5" gutterBottom>
-            <strong>The world's most useless selection of courses</strong>
+            <strong>The world's most use selection of courses</strong>
           </Typography>
           <Typography variant="subtitle1" gutterBottom>
             Choose from 1000 online video courses with new additions published
